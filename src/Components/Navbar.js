@@ -1,9 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Navbar(props) {
     return (
         <>
-            <nav className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode}`}>
+            <nav className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode}`} style={{border: props.mode === 'light'?'1px solid #212529':'1px solid #fff' }}>
                 <div className="container-fluid">
                     <a className="navbar-brand" href="/">{props.name}</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -12,10 +13,13 @@ function Navbar(props) {
                     <div className="collapse navbar-collapse" id="navbarScroll">
                         <ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" >
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="/">Home</a>
+                                <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/">Link</a>
+                                <Link className="nav-link" to="/accordian">About</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/about">More</Link>
                             </li>
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="/" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -29,7 +33,7 @@ function Navbar(props) {
                                 </ul>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link disabled">Link</a>
+                                <a href='/' className="nav-link disabled">Link</a>
                             </li>
                         </ul>
                         {/* <form className="d-flex">
