@@ -1,0 +1,16 @@
+.Main_div{
+    position: relative;
+    min-height: 50vh;
+    background-color: aqua;
+}
+.inside_div{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: #000;
+    background-color:tomato;
+    padding: 2em;
+    border-radius: 10px;
+    border: 5px solid greenyellow;
+}

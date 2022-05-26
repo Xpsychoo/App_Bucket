@@ -6,6 +6,15 @@ import About from './Components/About';
 import AlertComponent from './Components/AlertComponent';
 import Accordian from './Components/Accordian';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ActionOne from './Components/Action_one';
+import Calculator from './Components/Calculator';
+import NewApp from './Components/NewApp';
+import Photography from './Components/Photography';
+import Login from './Components/Login';
+import TodoList from './Components/ToDoList/TodoList';
+import Increment from './Components/incrrApp/incrementMain';
+import AddName from './Components/AddName';
+import ExpenseChart from './Components/ExpenseChart';
 function App() {
 
    const [Mode, SetMode] = useState('light');
@@ -41,11 +50,20 @@ function App() {
     <Router>
       <Navbar name="Textbook" dropName="More" mode={Mode} toggleMode={toggleMode} />
       <AlertComponent alert={alert}/>
-      <div className="container">
+      <div className="Main-Box">
         <Routes>
           <Route path="/" element={<Form  showAlert={showAlert} mode={Mode} Heading="Word Counter"/>} />
           <Route path="/about" element={<About />} />
           <Route path="/accordian" element={<Accordian />} />
+          <Route path="/calculator" element={<Calculator />} />
+          <Route path="/actionone" element={<ActionOne />} />
+          <Route path="/newapp" element={<NewApp />} />
+          <Route path="/photography" element={<Photography />} />
+          <Route path="/expense" element={<ExpenseChart />} />
+          <Route path="/todolist" element={<TodoList />} />
+          <Route path="/incrementMain" element={<Increment />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/addname" element={<AddName />} />
         </Routes>
         </div>
         </Router>

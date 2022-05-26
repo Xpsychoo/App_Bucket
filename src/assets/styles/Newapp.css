@@ -1,0 +1,45 @@
+.container{
+    min-height: 100vh;
+}
+.Header{
+    text-align: center;
+    padding: 1em;
+    border-bottom: 1px solid #efef;
+}
+.cardx{
+    margin: 10px;
+    max-width: 30%;
+    padding: 1em;
+    cursor: pointer;
+    box-shadow: 0px 0px 12px grey;
+}
+.cardx img{
+    width: 100%;
+    max-height: 20em;
+    min-height: 20em;
+    overflow: hidden;
+    object-fit: cover;
+    max-width: 100%;
+    border-radius: 5px;
+    border-radius: 5px;
+}
+.navbar-iin{
+    padding:  1em 0px;
+}
+.choice_nav{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.choice_nav .list-item{
+    border: 2px solid grey;
+    padding: 5px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    margin: 0px 10px;
+}
+.list-item.active{
+    background-color: goldenrod;
+    color: #fff;
+}

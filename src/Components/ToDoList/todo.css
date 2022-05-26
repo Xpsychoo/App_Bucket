@@ -1,0 +1,57 @@
+.main{
+    background-image: linear-gradient(to right, #2ba4a6, #800080);
+    min-height: 90vh;
+    padding: 10px;
+    font-weight: 500;
+    color: #fff;
+}
+.main .header{
+    background-color: #ffffff40;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 2px;
+    border-radius: 7px;
+    margin: 10px;
+}
+.main .card{
+    background-color: #ffffff40;
+    border-radius: 7px;
+    margin: 10px;
+}
+.main .fa-plus{
+    border: 2px solid #f8f9fa;
+    font-size: 20px;
+    background-color: #886eaa80;
+    border-radius: 50%;
+    padding: 5px 7px;
+    margin-left: 2em;
+    cursor: pointer;
+    letter-spacing: 0px;
+}
+input{
+    border: 2px solid #adacac;
+    border-radius: 7px;
+    width: 100%;
+    margin: 20px 0px;
+    box-sizing: 0px 0px 12px #fff;
+}
+.modal-header{
+    color: #2ba4a6;
+}
+input:focus{
+    box-sizing: 0px 0px 12px aqua;
+    border: 2px solid aqua;
+}
+.modal-body{
+    padding: 1em;
+}
+.submiTbTnTodo{
+    background-color: transparent;
+    border: 2px solid #2ba4a6;
+    border-radius: 7px;
+    font-size: 15px;
+    padding: 1px 10px;
+    float: right;
+}
