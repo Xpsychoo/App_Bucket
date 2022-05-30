@@ -1,7 +1,7 @@
 .Main_div{
     position: relative;
-    min-height: 50vh;
-    background-color: aqua;
+    min-height: 89vh;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 }
 .inside_div{
     position: absolute;

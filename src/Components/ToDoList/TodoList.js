@@ -7,6 +7,8 @@ import 'react-toastify/dist/ReactToastify.css';
 const TodoList = () => {
   const [newInput, setnewInput] = useState('');
   const [items, setItems] = useState([]);
+  // const [expand, setexpand] = useState(false)
+
   const submitHandler = (e) => {
     e.preventDefault();
     console.log(newInput);
@@ -37,7 +39,19 @@ const TodoList = () => {
         {items.map( (ival, id)  => {
           return ( <TodoCard key={id} newData={ival} IDd={id} deleteBtn={deleteBtn} />)
         })}
-       
+        
+        {/* <>
+        {
+        expand ?
+          <>
+           example to show hide on click
+           data or an element to show or hide
+          </> : null
+      }
+      <p onClick={() => { setexpand(true)}}> new element</p>
+
+      </> */}
+
       </div>
       <div className="modal fade" id="todoModal" aria-labelledby="todoModal" aria-hidden="true">
         <div className="modal-dialog">

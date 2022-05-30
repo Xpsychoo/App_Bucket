@@ -1,0 +1,49 @@
+.Main__page{
+    background-image: linear-gradient(to left bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8a94e1, #778ee1, #6189e1, #4871da, #3358d2, #243dc6, #1f1bb8);
+    min-width: 100%;
+    padding: 1em;
+    min-height: 84vh;
+}
+.Main__page .InpuTBOx{
+    background-color: #ffffff40;
+    margin: 0px 10px;
+    justify-content: center;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+}
+.Main__page .InpuTBOx input{
+    width: 60%;
+    margin: 0px 10px;
+}
+.Main__page .InpuTBOx .TextDesc{
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+.Main__page .img__Box{
+background-color: #ffffff40;
+max-width: 100%;
+padding: 1em;
+margin: 10px;
+overflow: hidden;
+text-align: center;
+height: 71vh;
+border-radius: 10px;
+}
+.Main__page .img__Box img{
+    height: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+.btnSrchImg{
+    padding: 3px 10px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    margin: 0px 10px;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 7px;
+}

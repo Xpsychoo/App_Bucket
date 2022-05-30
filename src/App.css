@@ -6,6 +6,9 @@
   height: 40vmin;
   pointer-events: none;
 }
+.nav-link.active{
+  color: yellow;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

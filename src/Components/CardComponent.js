@@ -9,6 +9,7 @@ function CardComponent(props) {
             <p> {props.price}</p>
             <p> {props.category}</p>
             <p>{props.Description}</p>
+            <a rel="noreferrer" target='_blank' href={props.href}>{props.linkText}</a>
         </div> 
     </>
   )

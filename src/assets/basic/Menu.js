@@ -131,58 +131,68 @@ const PhotoData =[
         id:1,
         image:'https://source.unsplash.com/random/?nature',
         category:'photography',
-        Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates corporis nisi alias suscipit laborum accusamus assumenda voluptatem tempora? Doloribus sint accusamus neque totam ab ut quis?"
+        Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates corporis nisi alias suscipit laborum accusamus assumenda voluptatem tempora? Doloribus sint accusamus neque totam ab ut quis?",
+        linkText:'view Full Size'
+        
     },
     {
         id:2,
         category:'photography',
         image:'https://source.unsplash.com/random/?river',
-        Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates corporis nisi alias suscipit laborum accusamus assumenda voluptatem tempora? Doloribus sint accusamus neque totam ab ut quis?"
+        Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates corporis nisi alias suscipit laborum accusamus assumenda voluptatem tempora? Doloribus sint accusamus neque totam ab ut quis?",
+        linkText:'view Full Size'
     },
     {
         id:3,
         category:'photography',
         image:'https://source.unsplash.com/random/?stars',
-        Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates corporis nisi alias suscipit laborum accusamus assumenda voluptatem tempora? Doloribus sint accusamus neque totam ab ut quis?"
+        Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates corporis nisi alias suscipit laborum accusamus assumenda voluptatem tempora? Doloribus sint accusamus neque totam ab ut quis?",
+        linkText:'view Full Size'
     },
     {
         id:4,
         category:'photography',
         image:'https://source.unsplash.com/random/?beach',
-        Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates corporis nisi alias suscipit laborum accusamus assumenda voluptatem tempora? Doloribus sint accusamus neque totam ab ut quis?"
+        Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates corporis nisi alias suscipit laborum accusamus assumenda voluptatem tempora? Doloribus sint accusamus neque totam ab ut quis?",
+        linkText:'view Full Size'
     },
     {
         id:5,
         category:'photography',
         image:'https://source.unsplash.com/random/?sun',
-        Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates corporis nisi alias suscipit laborum accusamus assumenda voluptatem tempora? Doloribus sint accusamus neque totam ab ut quis?"
+        Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates corporis nisi alias suscipit laborum accusamus assumenda voluptatem tempora? Doloribus sint accusamus neque totam ab ut quis?",
+        linkText:'view Full Size'
     },
     {
         id:6,
         category:'photography',
         image:'https://source.unsplash.com/random/?forest',
-        Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates corporis nisi alias suscipit laborum accusamus assumenda voluptatem tempora? Doloribus sint accusamus neque totam ab ut quis?"
+        Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates corporis nisi alias suscipit laborum accusamus assumenda voluptatem tempora? Doloribus sint accusamus neque totam ab ut quis?",
+        linkText:'view Full Size'
     },
     {
         id:7,
         image:'https://source.unsplash.com/random/?sunrise',
         category:'breakfast',
         price:'₹ 250',
-        Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates corporis nisi alias suscipit laborum accusamus assumenda voluptatem tempora? Doloribus sint accusamus neque totam ab ut quis?"
+        Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates corporis nisi alias suscipit laborum accusamus assumenda voluptatem tempora? Doloribus sint accusamus neque totam ab ut quis?",
+        linkText:'view Full Size'
     },
     {
         id:8,
         image:'https://source.unsplash.com/random/?cartoon',
         category:'lunch',
         price:'₹ 50',
-        Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates corporis nisi alias suscipit laborum accusamus assumenda voluptatem tempora? Doloribus sint accusamus neque totam ab ut quis?"
+        Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates corporis nisi alias suscipit laborum accusamus assumenda voluptatem tempora? Doloribus sint accusamus neque totam ab ut quis?",
+        linkText:'view Full Size'
     },
     {
         id:9,
         image:'https://source.unsplash.com/random/?anime',
         category:'dinner',
         price:'₹ 8950',
-        Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates corporis nisi alias suscipit laborum accusamus assumenda voluptatem tempora? Doloribus sint accusamus neque totam ab ut quis?"
+        Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates corporis nisi alias suscipit laborum accusamus assumenda voluptatem tempora? Doloribus sint accusamus neque totam ab ut quis?",
+        linkText:'view Full Size'
     }
 ]
 

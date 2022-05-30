@@ -14,7 +14,11 @@ import Login from './Components/Login';
 import TodoList from './Components/ToDoList/TodoList';
 import Increment from './Components/incrrApp/incrementMain';
 import AddName from './Components/AddName';
+import ErrorPage from './Components/ErrorPage.js';
 import ExpenseChart from './Components/ExpenseChart';
+import MainApp from './Components/apidata/mainApp';
+import MainPage from './Components/ApiDeal/mainPage';
+import MainSearch from './Components/imageSearch/MainSearch';
 function App() {
 
    const [Mode, SetMode] = useState('light');
@@ -41,14 +45,13 @@ function App() {
       document.body.style.backgroundColor = '#fff';
       document.body.style.color = '#212529';
       showAlert("Light mode has been enabled", "success");
-
      }
    }
 
   return (
     <>
     <Router>
-      <Navbar name="Textbook" dropName="More" mode={Mode} toggleMode={toggleMode} />
+      <Navbar name="App Bucket" dropName="More" mode={Mode} toggleMode={toggleMode} />
       <AlertComponent alert={alert}/>
       <div className="Main-Box">
         <Routes>
@@ -61,9 +64,13 @@ function App() {
           <Route path="/photography" element={<Photography />} />
           <Route path="/expense" element={<ExpenseChart />} />
           <Route path="/todolist" element={<TodoList />} />
+          <Route path="/ApiDeal" element={<MainPage />} />
           <Route path="/incrementMain" element={<Increment />} />
+          <Route path="/mainApp" element={<MainApp />} />
+          <Route path="/MainSearch" element={<MainSearch />} />
           <Route path="/login" element={<Login />} />
           <Route path="/addname" element={<AddName />} />
+          <Route path='' element={<ErrorPage />} />
         </Routes>
         </div>
         </Router>

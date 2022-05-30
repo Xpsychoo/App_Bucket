@@ -1,7 +1,7 @@
-import React,{useState,useContext} from 'react'
+import React,{useContext} from 'react'
 import ExpenseCard from '../assets/Common/ExpenseCard';
 import '../assets/styles/Expense.css';
-import ExpenseData from '../assets/basic/ExpenseApi';
+// import ExpenseData from '../assets/basic/ExpenseApi';
 import AddExpenseForm from '../assets/Common/AddExpenseForm';
 import ExpenseNavigator from '../assets/Common/ExpenseNavigator';
 import context from '../Context/Context';

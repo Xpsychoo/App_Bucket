@@ -36,7 +36,10 @@ function Navbar(props) {
                                     <li><Link className="dropdown-item" to="/photography">Photography</Link></li>
                                     <li><Link className="dropdown-item" to="/expense">Expense Chart</Link></li>
                                     <li><Link className="dropdown-item" to="/incrementMain">Counter</Link></li>
+                                    <li><Link className="dropdown-item" to="/mainApp">API Data</Link></li>
                                     <li><Link className="dropdown-item" to="/todolist">To Do List</Link></li>
+                                    <li><Link className="dropdown-item" to="/MainSearch">Search Image</Link></li>
+                                    <li><Link className="dropdown-item" to="/ApiDeal">Pikachu </Link></li>
                                     <li><Link className="dropdown-item" to="/addname">Form</Link></li>
                                 </ul>
                             </li>
